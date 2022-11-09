@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Inicio</title>
+
+    <!--EL ICONO DE LA PAGINA-->
+    <link rel="icon" href="../../static/img/cat.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/8bf73fd64c.js" crossorigin="anonymous"></script>
+    <!-- tipo de letra -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../../static/base.css">
+    <link rel="stylesheet" href="../../static/main.css">
+    <link rel="stylesheet" href="../../static/style.css">
+    <link rel="stylesheet" href="../../static/Carrusel.css">
+    <link rel="stylesheet" href="../../static/tienda.css">
+    <link rel="stylesheet" href="../../static/animales.css">
+    <script defer src="../../static/js/jsjs.js"></script>
+    <script defer src="../../static/js/app.js"></script>
+</head>
+<body>
+<!--MENU DE NAVEGACION-->
+<header>  
+    <nav>
+
+        <input type="checkbox" id="ckbox">
+        <label for="ckbox" class="drawer">
+            <i style="color:#fbf53b;" class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+
+        <a href="#" class="logo"><img style="color:var(--text-color-inverse);" src="../../static/img/Logo2.png" 
+         height="60" width="160"></a>
+         <label id="toggle-label" for="toggle">
+            <span>&#x1F31E;</span>
+            <input type="checkbox" id="toggle">
+            <span class="slider"></span>
+            <span>🌜</span>
+        </label>
+        <!--Privilegios al iniciar sesion-->
+       
+        <ul class="menu-box">
+            <div class="drop-down-menu">
+                <a href="#" class="drop-down-button">Adopta
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="drop-down-menu-content">
+                    <a href="animales.html">Adoptar mascotas</a>
+
+                </div>
+            </div>
+            <div class="drop-down-menu">
+                <a href="#"  class="drop-down-button">Tienda Kat
+                    <i class="fas fa-caret-down"></i></a>
+                <div class="drop-down-menu-content">
+                    <a href="../tienda/tienda.html">Productos</a>
+                </div>
+            </div>
+            <div class="drop-down-menu">
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="drop-down-menu">
+                <a href="correo.html">Consultas</a>
+            </div>
+            <div class="drop-down-menu">
+              <button class="donar btn-obel" id="open"><i class="fa fa-heart"></i>DONAR</button>
+          </div>
+          <div id="modal_container" class="modal-container" > 
+              <div class="blanquito"><img src="https://cdn-icons-png.flaticon.com/512/54/54972.png" 
+                  class="cerrar-obel" href="#" id="close">
+                  <section class="modal-dialog-centered">
+                      <img src="https://play-lh.googleusercontent.com/y5S3ZIz-ohg3FirlISnk3ca2yQ6cd825OpA0YK9qklc5W8MLSe0NEIEqoV-pZDvO0A8"
+                       class="card-img-top modal-dialog-centered " id="obel-img" alt="...">
+                       <div class="principal-obel">
+                      <h1 class="card-text obel-text"><p class="principal-obel">Utiliza yape para apoyarnos, tus amigos de 4 patas te lo agradeceran!!!</p><br><p class="no"> no te olvides de avisarnos al whatsapp</p><br>
+                      </h1>
+                      </div>
+                          <section class="yapes" >
+                              <button class="obel btn-obel" >
+                                  <a class="obela" href="https://floreriamonterrico.com/wp-content/uploads/2021/02/yape-qr-600.png" target="_blank ">¡¡¡Apoyar asocioacion!!!</a></button>                             
+                                  <button class="obel2 btn-obel" >
+                                      <a class="obela" href="https://floreriamonterrico.com/wp-content/uploads/2021/02/yape-qr-600.png" target="_blank ">¡¡¡Apoyar Mascota!!!</a></button>
+                                      <button class="obel3 btn-obel" >
+                                          <a class="obela" href="https://api.whatsapp.com/send?phone=51954729217&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Producto...." target="_blank ">
+                                              Whatsapp</a></button>
+                                          </section>
+                                      </section>
+                                  </div> 
+                              </div>
+                          </div>
+                      </section>  
+                  </div>
+              </ul>
+             </nav>
+             </header>
+ 
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="capa"></div>
+                  <div class="banner" style="background-image: url(../../static/img/puppy-gd6b257198_1920.jpg);"></div>
+                      <div class="carousel-caption">
+                          <h2>las Mascotas<span>&nbsp;Son fabulosas</span><br><a href="{% url 'animales' %}"><button type="button" class="btn btnadop"style="color:white; background-color: transparent;">Adopta</button></a></h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="capa"></div>
+                      <div class="banner" style="background-image: url(../../static/img/cat-g5af9d98f4_1920.jpg);"></div>
+                      <div class="carousel-caption">
+                          <h2>Registrate Para poder <span> Publicar tu Mascota</span>
+                          </h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="capa"></div>
+                      <div class="banner" style="background-image: url(../../static/img/bulldog-g310e69d3b_1920.jpg);"></div>
+                      <div class="carousel-caption">
+                          <h2>Para una<span>&nbsp;Mejor VIda</span></h2>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+<!--Fin-del-Slider-->
+          <br>
+          <div class="Items4">
+            <div class="Pregunta">
+              <h6>¿Por qué adoptar un animalito de nuestra asociacion?</h6>
+            </div>
+            <div class="container">
+              <div class="row" style="margin:60px 0px 60px 20px;">
+                <div class="col-sm-3">
+                  <div class="card Tarjeta-1" style="width: 14rem; margin-top: 20px;">
+                    <i class="fa-solid fa-syringe" style="font-size:48px; margin-top: 20px;color:var(--primary-color)" ></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Vacunado</h5>
+                      <p class="card-text">Antiparasitos y entro otros mas. con nuestras veterinarias asociadas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card Tarjeta-1" style="width: 14rem; margin-top: 20px;">
+                    
+                    <i class="fas fa-bowl-food" style="font-size:48px; margin-top: 20px;color:var(--primary-color)"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Alimentado</h5>
+                      <p style="color:var(--card-color);" class="card-text">Mejores Nutrientes para su desarrollo. en su rehabilitacion</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card Tarjeta-1" style="width: 14rem; margin-top: 20px;">
+                    <i class="fa fa-fill-drip "style="font-size:48px; margin-top: 20px;color:var(--primary-color)"></i>
+
+                    <div class="card-body">
+                      <h5 class="card-title">Aseo</h5>
+                      <p class="card-text">Muy bien bañado y perfumado listo para la adopcion.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card Tarjeta-1" style="width: 14rem; margin-top: 20px;">
+                    <i class="fa fa-dog"style="font-size:48px; margin-top: 20px;color:var(--primary-color)"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Contribucion</h5>
+                      <p class="card-text">Contribuyes a que animalitos rescatados tengan un hogar.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                      <!-- Linea de separacion-->
+                      <div class="linea"></div>
+<!-- Nosotros-->
+          <section class="about" id="about">
+            <div class="image">
+            <img src="https://www.renian.org/wp-content/uploads/2021/02/perro-gato.png" alt="">
+          </div>
+          <div class="content">
+            <h3>Quiénes <span>somos y</span> por qué existimos</h3>
+            <p>Somos una asociación sin fines de lucro que busca construir un mundo mejor para los perros a través de iniciativas sostenibles</p>
+            <a href="#Donar" class="btn2">Donar</a>
+          </div>
+        </section>
+        <!-- Fin de Nosotros -->
+        <!-- Linea de separacion-->
+        <div class="linea"></div>
+        <!--Slider- titulo-->
+        <div class="titulo-aupicia">
+          <h3>Descuento  <span> Por la adopcion de una</span> Mascota con nuestros socios</h3>
+        </div>
+        <div class="veterenary">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner ContenidoP">
+              <div class="carousel-item active">
+                <div class="capas"></div>
+                <div class="banners" style="background-image: url(../../static/img/1.png);"></div></div>
+                <div class="carousel-item">
+                  <div class="capas"></div>
+                  <div class="banners" style="background-image: url(../../static/img/2.png);"></div>
+                </div>
+              </div>
+              <button class="carousel-control-prev Izquierda" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span> <i style="font-size: 30px; " class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next derecha" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span> <i style="font-size: 30px; " class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <span class="visually-hidden ">Next</span>
+              </button>
+            </div>
+   <!--2-img-publicidad-->
+            <div class="img-veterian">
+              
+              <img src="../../static/img/vet-g8ad229f47_640.png" width="600" height="300"
+              ></img> 
+              
+              <img src="../../static/img/313401413_183954044171189_3391592467399113726_n.jpg" width="600" height="300"
+               ></img>
+              </div>
+            </div>
+            <!--Slider-Infinito-->
+            <div class="logo-slider">
+              <div class="slider-contenido">
+                <div class="logo-s">
+                  <a target="_blank" href="https://www.facebook.com/zoovetmollendo/">
+                    <img src="../../static/img/logo-g6061ec499_1280.png"></a>
+                  </div>
+                  <div class="logo-s">
+                    <img src="https://www.logogenio.es/download/preview/medium/7103546">
+                  </div>
+                  <div class="logo-s">
+                    <img src="https://patasresort.com/wp-content/uploads/2021/04/logo-veterinaria-petfecto.png">
+                  </div>
+                  <div class="logo-s">
+                    <img src="http://vetdelvalle.mx/nueva/wp-content/uploads/2020/05/Recurso-2.png">
+                  </div>
+                  <div class="logo-s">
+                    <img src="https://www.logogenio.es/download/preview/medium/7103546">
+                  </div>
+                  <div class="logo-s">
+                    <img src="https://patasresort.com/wp-content/uploads/2021/04/logo-veterinaria-petfecto.png">
+                  </div>
+                  <div class="logo-s">
+                    <a target="_blank" href="https://www.facebook.com/zoovetmollendo/">
+                      <img src="https://veterinariasedavi.com/new/wp-content/uploads/2020/07/logo-clinica-veterinaria-sedavi.png"></a>
+                    </div>
+                    <div class="logo-s">
+                      <img src="https://www.logogenio.es/download/preview/medium/7103546">
+                    </div>
+                    <div class="logo-s">
+                      <img src="https://patasresort.com/wp-content/uploads/2021/04/logo-veterinaria-petfecto.png">
+                    </div>
+                    <div class="logo-s">
+                      <img src="http://vetdelvalle.mx/nueva/wp-content/uploads/2020/05/Recurso-2.png">
+                    </div>
+                    <div class="logo-s">
+                      <img src="https://www.logogenio.es/download/preview/medium/7103546">
+                    </div>
+                    <div class="logo-s">
+                      <img src="https://patasresort.com/wp-content/uploads/2021/04/logo-veterinaria-petfecto.png">
+                    </div>
+                  </div>
+                </div>
+                <!--fin-Slider-Infinito-->
+                <!-- Linea de separacion-->
+                <div class="linea"></div>
+                <!--Contenido-Adopta-->
+                <div class="contenido">
+                  <div class="titulo">
+                    <h5>Detras de esto:</h5>
+                    <p>Por un bien comun</p>
+                  </div>
+                      </div>
+                      <div class="team">
+                        <div class="card cardc">
+                            <div class="head">
+                                <div class="circle"></div>
+                                <div class="img">
+                                    <img src="../../static/img/avatar-g59cca3e93_640.png" alt="" weight="120px" height="120px">
+                                </div>
+                            </div>
+                    
+                            <div class="description">
+                                <h3>Obel David Mamani Ccuno</h3>
+                                <h4>Tecnico en Ingenieria de Software</h4>
+                                <p>Desarrollador de distintos lenguajes de Programacion, Experto en distintas areas TI!</p>
+                            </div>
+                    
+                            <div class="contact">
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    
+                        <div class="card cardc">
+                            <div class="head">
+                                <div class="circle"></div>
+                                <div class="img">
+                                    <img src="../../static/img/avatar-g57e27eed6_1280.png" alt="">
+                                </div>
+                            </div>
+                    
+                            <div class="description">
+                                <h3>Eduardo Gomez Barahona</h3>
+                                <h4>Tecnico en Ingenieria de Software</h4>
+                                <p>Desarrollador de distintos capacidades front-end y backend.</p>
+                            </div>
+                    
+                            <div class="contact">
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    
+                            <div class="card cardc">
+                            <div class="head">
+                                <div class="circle"></div>
+                                <div class="img">
+                                    <img src="../../static/img/person-gcb2325d9b_1280.png" alt="">
+                                </div>
+                            </div>
+                    
+                            <div class="description">
+                                <h3>Matias Manuel Adco Larota</h3>
+                                <h4>Tecnico en Ingenieria de Software</h4>
+                                <p>Desarrollador de front-end y backend.!</p>
+                            </div>
+                    
+                            <div class="contact">
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    
+                        <div class="card cardc">
+                            <div class="head">
+                                <div class="circle"></div>
+                                <div class="img">
+                                    <img src="../../static/img/avatar-g8ef347545_1920.png" alt="">
+                                </div>
+                            </div>
+                    
+                            <div class="description">
+                                <h3>ASOCIACION</h3>
+                                <h4>Gerenta</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                            </div>
+                    
+                            <div class="contact">
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    
+                        </div>
+                           <!--::::Pie de Pagina::::::-->
+  <br><br>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="templates/paginas/inicio.html">
+                    <img src="../../static/img/Logo.png" class="imgs" alt="Logo de SLee Dw">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Mollendo-Islay-Arequipa-peru</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS EN:</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/profile.php?id=100076697842567" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/usarmollendo?igshid=YmMyMTA2M2Y=" target="_blank" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>katman</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
+</body>
+</html>
